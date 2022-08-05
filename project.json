@@ -1,0 +1,134 @@
+{
+  "name": "API_Dogs_Performer",
+  "description": "This process will get images for each queue item and mail it to that person and then send success email to manager",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.4]",
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]",
+    "UiPath.WebAPI.Activities": "[1.11.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f53b05a5-c54e-4ebb-91ea-2b6481b94a0c",
+        "dataVariationFilePath": ".variations\\Tests_Tests.json",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GeneralTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f4248a16-2c53-471d-9ea6-c76c72cb3293",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b2e0a49a-101b-4308-a137-8f496e079350",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c6aeaa5f-69f6-44b3-9ccb-78fa4c87828e",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8fdb961c-bbe4-4585-b3e2-43c2552d857b",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8e88a638-ea09-4cf1-94e1-0142fc78d267",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "97deef1c-14c7-4257-8b00-5c33fb2c7a86",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "740935d3-0ef9-4d05-a340-381a6276178a",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\TestCase_Read_OutputReport.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "55fa9464-b8e9-4e0c-98fc-662cb750c190",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\TestCase_Read_EmailMapping.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "33976863-8acb-44df-8d55-c2beea07463a",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\TestCase_NavigateTo_Website.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "45452d7e-cf3b-488f-a75f-fbad39e002cb",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\TestCase_Get_Email.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0a720c76-66d5-491f-b5f2-935af743c3ca",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\TestCase_Populate_DiacriticsDictionary.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "7fcf18ca-1137-473d-aee6-e186392e7007",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
